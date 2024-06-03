@@ -2,12 +2,12 @@
 
 This project aims to automate the process of generating and posting AI-curated content on Twitter. It utilizes natural language processing (NLP) and computer vision techniques to generate text and images, which are then posted to Twitter via the Twitter API.
 
-## Overview
+# Overview
 
 The system is designed to generate engaging text and images using pre-trained AI models. It automates the posting process on Twitter, reducing the need for manual intervention. The desired outcome is an efficient and effective system that can consistently generate high-quality content and engage with users on Twitter.The project leverages the free-tier version of the Twitter Developer API, which imposes certain limitations on the available features.
 
 
-## Features
+# Features
 
 - Text and image generation using AI models
 - Integration with the Twitter API for content posting
@@ -29,7 +29,7 @@ The system is designed to generate engaging text and images using pre-trained AI
 - torch==2.3.0+cu121
 
 
-## Limitations of Free-Tier Twitter API
+# Limitations of Free-Tier Twitter API
 
 The free-tier version of the Twitter Developer API used in this project comes with the following limitations:
 
@@ -67,7 +67,7 @@ Here are the URLs for the endpoints:
 - **Get User Information:** `https://api.twitter.com/2/users/me`
 
 
-## Installation
+# Installation
 
 To run this project locally, follow these steps:
 
@@ -78,7 +78,7 @@ To run this project locally, follow these steps:
 5. Run the main script to start generating and posting content.
 
 
-## Usage
+# Usage
 
 To use the project, follow these steps:
 
@@ -87,7 +87,7 @@ To use the project, follow these steps:
 3. Adjust the content generation parameters as needed to optimize engagement.
 
 
-## Additional Notes
+# Additional Notes
 - This project was developed using Google Colab, but it can be adapted to other Python environments as well.
 - Access to a Twitter Developer Account is required to obtain API tokens and secrets for posting content to Twitter.
 
